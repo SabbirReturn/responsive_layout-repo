@@ -37,8 +37,8 @@ nav a{
 .banner{
     margin: 0, auto;
     text-align: center;
-    padding-left: 520px;
-    padding-right: 520px;
+    /* padding-left: 520px;
+    padding-right: 520px; */
 }
 .banner-title{
     color:#131313;
@@ -65,4 +65,34 @@ nav a{
 .banner-picture{
     margin: 0, auto;
     padding: 45px 240px ;
+}
+.banner-picture img {
+    width: 100%;
+}
+@media screen and (max-width:577px) {
+    nav{
+        flex-direction: column;
+    }
+    .banner{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .banner-picture{
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+}
+
+/* Learge Screen */
+@media screen and (min-width:577px) and (max-width:960px) {
+    nav{
+        flex-direction: column;
+    }
+    .banner{
+        
+    }
+    .banner-picture{
+        padding-left: 1px;
+        padding-right: 1px;
+    }
 }
