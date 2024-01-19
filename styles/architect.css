@@ -73,6 +73,10 @@ main{
     max-width: 1440px;
     margin: 70px auto;
 }
+.feature{
+    margin-left: 200px;
+    margin-right: 180px;
+}
 .Features-conteiner{
     display: flex;
     align-items: center;
@@ -81,7 +85,7 @@ main{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap:24px;
-    padding-right: 180px;
+    padding-right: 80px;
 }
 .Quick{
     color: #727272;
@@ -112,6 +116,72 @@ main{
     font-size: 1.5rem;
     font-weight: 600;
 }
+.fact{
+    margin-top: 70px;
+    margin-left: 180px;
+    margin-right: 150px;
+    
+}
+.fact-title{
+    color: #131313;
+    font-size: 3rem;
+    font-weight: 700px;
+}
+.fact-description{
+    color: #727272;
+    font-size: 1rem;
+
+}
+.fact-img{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    /* margin-left:30px; */
+    margin-right: 50px;
+}
+.fact-image-content{
+    border: 1px solid #FF900E ;
+    width: 241.831px;
+    height: 241.831px;
+    border-radius: 10px;
+}
+.picture{
+    padding-left: 98px;
+    padding-right: 98px;
+    margin-top: 30px;
+    }
+.fact-number{
+    color: #424242;
+    font-size: 2.8rem;
+    font-weight: 400px;
+    padding-left: 92px;
+    padding-right: 92px;
+}
+.fact-message{
+    text-align: center;
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 600px;
+}
+.fact1-number{
+    color: #424242;
+    font-size: 2.8rem;
+    font-weight: 400px;
+    padding-left: 65px;
+    /* padding-right: 92px; */
+}
+.fact2-number{
+    color: #424242;
+    font-size: 2.8rem;
+    font-weight: 400px;
+    padding-left: 80px;
+}
+.fact3-number{
+    color: #424242;
+    font-size: 2.8rem;
+    font-weight: 400px;
+    padding-left: 45px;
+}
 @media screen and (max-width:577px) {
     nav{
         flex-direction: column;
@@ -127,15 +197,26 @@ main{
     }
     .Features-conteiner{
         flex-direction: column;
-        padding-left: 2rem;
+        padding-left: 1rem;
+    }
+    .feature{
+        margin-left: 190px;
+        margin-right: 200px;
     }
     .img-content{
         grid-template-columns: 1fr;
-        padding-left: 2rem;
+        padding-left: 1rem;
         padding-right: 70px;
     }
     .second-btn-style{
         text-align: center;
+    }
+    .fact-img{
+        flex-direction: column;
+    }
+    .fact{
+        margin: 70px 80px;
+        margin-left: ;
     }
 }
 
@@ -144,9 +225,6 @@ main{
     nav{
         flex-direction: column;
         padding: 60px 200px;
-    }
-    .banner{
-        
     }
     .banner-picture{
         padding-left: 1px;
@@ -159,6 +237,15 @@ main{
     }
     .Features-conteiner{
         flex-direction: column;
+        padding-left: 4rem;
+    }
+    .Features-content{
         padding-left: 2rem;
+    }
+    .second-btn-style{
+        text-align: center;
+    }
+    .fact-img{
+        flex-direction: column;
     }
 }
